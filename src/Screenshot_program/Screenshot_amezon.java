@@ -20,6 +20,7 @@ public class Screenshot_amezon {//
 	   File  src =ts.getScreenshotAs(OutputType.FILE);
 	   File dest=new File("C:\\Users\\DELL\\Desktop\\Screenshot\\google.png");
 	   Files.copy(src, dest);
+		System.Out.Println("comments from github by teamleader");
 	
 	}
 
